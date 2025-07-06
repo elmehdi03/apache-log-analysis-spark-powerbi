@@ -6,8 +6,7 @@ Ce projet propose une chaîne complète de traitement et de visualisation de log
 
 ```
 ├── analyze_logs.py            # Script principal : parsing, export CSV
-├── data/web_logs.txt          # Fichier brut de logs Apache
-├── outputs/                   # Contient les exports CSV (utf8 + brut)
+├── web_logs.txt               # Fichier brut de logs Apache
 ├── Logs_Visuals.pbix          # Fichier Power BI connecté à PostgreSQL
 ├── requirements.txt           # Dépendances Python
 ├── LICENSE
