@@ -3,7 +3,7 @@ from pyspark.sql.functions import regexp_extract, col, to_date, unix_timestamp
 import os
 import glob
 import shutil
-import pandas as pd
+import polars as pd
 
 # -----------------------------------
 # 1. Initialiser la session Spark
